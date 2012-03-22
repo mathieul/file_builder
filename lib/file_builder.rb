@@ -16,7 +16,7 @@ class FileBuilder < BlankSlate
     @partials = {}
   end
 
-  def run(data)
+  def build(data = {})
     _instance_exec(data, &@main)
     @files
   end
