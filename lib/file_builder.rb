@@ -1,4 +1,3 @@
-require "file_builder/version"
 require 'blankslate'
 
 class FileBuilder < BlankSlate
@@ -48,3 +47,5 @@ class FileBuilder < BlankSlate
     end
   end
 end
+
+require "file_builder/version"
